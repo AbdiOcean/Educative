@@ -2,16 +2,27 @@ h1 {
     font-size: 50px;
     font-family: 'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
    color: darkblue;
-   text-underline-position:below;
    text-align: center;
-   text-decoration: underline;
+   text-decoration: double underline;
 }
 
 h2 {
     font-size: 30px;
     color: cyan;
+    text-align: center;
 }
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.paragraphs {
+    border: 2px solid cyan;
+    padding: 20px;
+}
+
+.body {
+    margin: 121px;
+    border: 9px double red;
+    padding: 9px;
 }
